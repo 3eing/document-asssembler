@@ -4,10 +4,6 @@
 import os.path
 import xml.etree.ElementTree as ET
 
-if 'DATASOURCES' not in globals():
-    import settings
-    settings.settings()
-
 
 class Article:
     def __init__(self, tags=None, title=None, client=None, date=None, body=None, language="fr"):

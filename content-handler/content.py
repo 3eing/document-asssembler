@@ -1,17 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+import configparser
 from os.path import abspath
 from docxtpl import DocxTemplate
 from handling import Article
 
-
-if 'DATASOURCES' not in globals():
-    import settings
-    settings.settings()
-
+config = configparser.ConfigParser()
+config.read("../config.ini")
 
 class Content:
-    def __init__(self, db, template="../tests/template.docx"):
+    def __init__(self, db, template=config["TEST"]["template"]):
         """
         Base class for content for document generation
         :param db: a MetaXML object containing texts to add to content
@@ -57,7 +55,7 @@ class Content:
         return len(articles)
 
 
-    def generate_docx(self, out_path="../tests/generated_doc.docx"):
+    def generate_docx(self, out_path=config["TEST"]["datasource"]):
         """
         Generate a docx from the content
         :param out_path: The path and filename of the docx
