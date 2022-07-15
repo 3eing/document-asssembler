@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+    <article>
+        <title>Analyse de données pour l'optimisation du rendement</title>
+        <language>fr</language>
+        <client>Fortress Cellulose Spécialisée (FCS)</client>
+        <date>2018</date>
+        <tag>efficacité</tag>
+        <tag>énergétique</tag>
+        <tag>procédé</tag>
+        <tag>analyse</tag>
+        <tag>données</tag>
+        <tag>monitoring</tag>
+        <body>
+            <p>L’usine Kraft de pâte dissoute FCS à Thurso produit de la cellulose spécialisée pour l’industrie du textile. La pâte est produite dans des réacteurs à partir de copeaux de bois et passe ensuite par des étapes de lavage, de blanchiment et de séchage. Pour ce procédé, le rendement représente le poids de pâte au produit fini sur le poids initial du bois utilisé pour produire cette pâte. Le rendement est affecté par le traitement mécanique et chimique des copeaux et de la pâte dans les différentes étapes du procédé. Il est donc souhaitable d’avoir un rendement maximum tout en en maintenant la qualité de la production. Ainsi, FCS souhaitait être en mesure de monitorer son rendement et les variables qui l’impactent pour identifier les dérives et mieux contrôler. </p>
+            <p>3E Ing. a été mandaté pour fournir des services d’analyse de données afin d’aider les experts techniques de l’usine à identifier et monitorer les variables qui ont un impact sur le rendement. L’étude a également permis d’expliquer les causes de pertes de rendement passées et a fourni des modèles qui ont facilité les prises de décisions et la préparation de budgets. Une page a été programmé sur Pi Processbook afin de suivre l’impact (négatif ou positif) des différentes variables sur le rendement ainsi qu’un modèle prédictif du rendement.</p>
+            <img>https://www.3eing.ca/wp-content/uploads/2019/08/Optimisation-du-rendement-e1566997028700.png</img>
+        </body>
+
+    </article>
+
+</library>

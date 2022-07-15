@@ -1,2 +1,2 @@
 # document-asssembler
-Assemble documents from tagged textsfiles
+Assemble documents from tagged texts files
